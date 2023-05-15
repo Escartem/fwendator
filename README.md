@@ -1,7 +1,9 @@
 # fwendator ✨
-### Generate an interactive graph of all your discord friends and the relations between them !
+### Generate an interactive graph of all your discord friends and the relations between them
 <img src="https://github.com/Escartem/fwendator/blob/master/images/graph.png?raw=true" />
 
+---
+## [live demo available here](https://ena.escartem.eu.org/projects/fwendator/demo)
 ---
 # What is this ?
 ### this is a simple project to see all of your friends connection in a interactive graph ([if gif doesn't load](https://github.com/Escartem/fwendator/blob/master/images/graph_interact.gif?raw=true))
