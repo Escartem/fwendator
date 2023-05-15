@@ -3,6 +3,7 @@ import json
 import os
 import tkinter as tk
 from tkinter import filedialog
+import shutil
 
 # set up graph
 net = Network(
@@ -72,6 +73,8 @@ for elem in data:
 
 # generate graph
 net.set_template_dir(cwd, "template.html")
+if os.path.exists("output"):
+	shutil.rmtree("output")
 os.makedirs("output")
 os.chdir("output")
 net.save_graph("nx.html")
