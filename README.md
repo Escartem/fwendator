@@ -4,11 +4,11 @@
 
 ---
 # What is this ?
-### this is a simple project to see all of your friends connection in a interactive graph
+### this is a simple project to see all of your friends connection in a interactive graph ([if gif doesn't load](https://github.com/Escartem/fwendator/blob/master/images/graph_interact.gif?raw=true))
 
 <img src="https://github.com/Escartem/fwendator/blob/master/images/graph_interact.gif?raw=true" />
 
-### you can also see the direct connections between each friend you have
+### you can also see the direct connections between each friend you have ([if gif doesn't load either](https://github.com/Escartem/fwendator/blob/master/images/graph_individual.gif?raw=true))
 
 <img src="https://github.com/Escartem/fwendator/blob/master/images/graph_individual.gif?raw=true" />
 
@@ -27,7 +27,11 @@
 2) open the devtools with `F12` or `ctrl + shift + i`
 3) go to the console tab and paste this [code](https://raw.githubusercontent.com/Escartem/fwendator/master/getFriends.min.js)
 
-(I am aware that discord will show many warnings about not pasting random code into the console, and they are right, you can check this code by looking at the [original file](https://raw.githubusercontent.com/Escartem/fwendator/master/getFriends.js), and if you still don't trust it, just don't paste it)
+I know that discord will show many warnings about not pasting random code into the console, and they are right, never paste code that you don't understand in random places. 
+
+__To clarify; Yes, this piece of code will use your discord token; No, it won't be shared and only be used to get all of your friends on your account.__ 
+
+You can check this code by looking at the [original file](https://raw.githubusercontent.com/Escartem/fwendator/master/getFriends.js), and if you still don't trust it, just don't paste it
 
 4) after pasting it and running it, it should start processing your friends, now you just need to wait
 
@@ -47,5 +51,7 @@
 - [ ] optimise web ui
 - [ ] add friends pfp on the graph
 - [ ] handle new upcomming discord username system
+
+---
 
 # Feel free to contribute to this project, or share it, anything would be appreciated <3
