@@ -13,6 +13,14 @@
 <img src="https://github.com/Escartem/fwendator/blob/master/images/graph_individual.gif?raw=true" />
 
 ---
+## Additionnal explanation about the graph
+
+* Each dot represent a friend you have on discord, and each line is when two of your friends are also friends together, so this show all of your friends and who they are friends with that is also your friend
+* The most mutual friends you have with someone, the bigger the circle. And the color is also linked to the circle size
+* You can also have circles alone, those are people that are friends with you, and none of all your others friends are friend with him
+* Since there are only your friends, you are not inside the graph, furthermore this would have been a nightmare to display if you were in it since every single circle would be connected to you
+
+---
 # How to use
 
 1) open [discord](https://discord.com/app) on your browser
