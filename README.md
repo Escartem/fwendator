@@ -31,7 +31,7 @@ I know that discord will show many warnings about not pasting random code into t
 
 __To clarify; Yes, this piece of code will use your discord token; No, it won't be shared and only be used to get all of your friends on your account.__ 
 
-You can check this code by looking at the [original file](https://raw.githubusercontent.com/Escartem/fwendator/master/getFriends.js), and if you still don't trust it, just don't paste it
+You can check this code by looking at the [original file](https://github.com/Escartem/fwendator/blob/master/getFriends.js), and if you still don't trust it, just don't paste it
 
 4) after pasting it and running it, it should start processing your friends, now you just need to wait
 
