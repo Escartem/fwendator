@@ -35,6 +35,8 @@ __To clarify; Yes, this piece of code will use your discord token; No, it won't 
 
 You can check this code by looking at the [original file](https://github.com/Escartem/fwendator/blob/master/getFriends.js), and if you still don't trust it, just don't paste it
 
+__Another warning, using discord api with a user token is considered self-botting and against ToS, by running this script you are technically against it, that doesn't mean you will get banned for doing so, but you do expose yourself of consequences from discord on your account, use at your own risk__
+
 4) after pasting it and running it, it should start processing your friends, now you just need to wait
 
 <img src="https://github.com/Escartem/fwendator/blob/master/images/process.gif?raw=true" />
