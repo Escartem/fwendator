@@ -19,13 +19,13 @@ net = Network(
 net.set_options("""
 const options = {
   "physics": {
-    "forceAtlas2Based": {
-      "theta": 0.1,
-      "gravitationalConstant": -136,
-      "springLength": 100
-    },
-    "minVelocity": 0.75,
-    "solver": "forceAtlas2Based"
+	"forceAtlas2Based": {
+	  "theta": 0.1,
+	  "gravitationalConstant": -136,
+	  "springLength": 100
+	},
+	"minVelocity": 0.75,
+	"solver": "forceAtlas2Based"
   }
 }
 """)
@@ -59,7 +59,9 @@ filename = filedialog.askopenfilename(initialdir=cwd, title="Choose your generat
 
 # loads data
 with open(filename, encoding='utf-8') as file:
-    data = json.load(file)
+	data = json.load(file)
+
+print("building graph...")
 
 # add points
 for elem in data:
@@ -69,7 +71,8 @@ for elem in data:
 # connect them
 for elem in data:
 	for mutual in data[elem]["mutual"]:
-		net.add_edge(elem, mutual)
+		if mutual in list(data.keys()):
+			net.add_edge(elem, mutual)
 
 # generate graph
 net.set_template_dir(cwd, "template.html")
