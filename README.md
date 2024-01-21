@@ -31,11 +31,9 @@
 
 I know that discord will show many warnings about not pasting random code into the console, and they are right, never paste code that you don't understand in random places. 
 
-__To clarify; Yes, this piece of code will use your discord token; No, it won't be shared and only be used to get all of your friends on your account.__ 
+__To clarify; Yes, this piece of code will use your discord token; Yes it is considered as self-botting and against discord ToS; No, your token won't be shared and only be used to get all of your friends on your account; No, you won't be systematically banned for using this but you do expose yourself anyway, use at your own risk.__
 
-You can check this code by looking at the [original file](https://github.com/Escartem/fwendator/blob/master/getFriends.js), and if you still don't trust it, just don't paste it
-
-__Another warning, using discord api with a user token is considered self-botting and against ToS, by running this script you are technically against it, that doesn't mean you will get banned for doing so, but you do expose yourself of consequences from discord on your account, use at your own risk__
+> You can check this code by looking at the [original file](https://github.com/Escartem/fwendator/blob/master/getFriends.js), and if you still don't trust it, just don't paste it
 
 4) after pasting it and running it, it should start processing your friends, now you just need to wait
 
@@ -47,7 +45,12 @@ __Another warning, using discord api with a user token is considered self-bottin
 
 6) now you need to clone this repo (with `git clone https://github.com/Escartem/fwendator` for example) and make sure you have both python and pyvis version 0.3.1 installed (with `pip install pyvis==0.3.1`)
 7) run the python file with `python graph.py`, it will ask you to choose a .json file, select the one you downloaded earlier, and then the script should finish and generate a webpage in the `output` folder
+
+> The script may try to automatically open the graph for you, but may do so using the wrong browser, if that happens just close the window
+
 8) and now you just need to open `nx.html` in that folder and you can explore your friends graph :D
+
+> Note, the graph takes a long time to load, the more friends you have the longer it will take (up to 10+ minutes)
 
 ---
 # Todo :
